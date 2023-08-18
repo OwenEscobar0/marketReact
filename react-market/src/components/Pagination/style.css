@@ -1,0 +1,101 @@
+.paginationN{
+    display: flex;
+   justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    justify-content: space-around;
+    
+}
+#button-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333333;
+    position: relative;
+    transition: 0.3s;
+    background-color: #ffffff00;
+}
+#button-back::before, #button-back::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform-origin: 100% 50%;
+    height: 1px;
+    width: 11px;
+    background-color: #333;
+    border-radius: 2px;
+    will-change: transform;
+    transition: .3s;
+  }
+  
+  #button-back::before {
+    transform: translateY(750%) rotate(30deg);
+  }
+  
+  #button-back::after {
+    transform: translateY(-410%) rotate(-30deg);
+  }
+  
+  #button-back:hover::before {
+    transform: translate(-5px, 500%) rotate(30deg);
+  }
+  
+  #button-back:hover::after {
+    transform: translate(-5px, -500%) rotate(-30deg);
+  }
+
+  #button-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333333;
+    position: relative;
+    transition: 0.3s;
+    background-color: #ffffff00;
+  }
+  #button-next::before, #button-next::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform-origin: 100% 50%;
+    height: 1px;
+    width: 11px;
+    background-color: #333;
+    border-radius: 2px;
+    will-change: transform;
+    transition: .3s;
+  }
+  
+  #button-next::before {
+    transform: translateY(-50%) rotate(30deg);
+  }
+  
+  #button-next::after {
+    transform: translateY(-50%) rotate(-30deg);
+  }
+  
+  #button-next:hover::before {
+    transform: translate(5px, 130%) rotate(30deg);
+  }
+  
+  #button-next:hover::after {
+    transform: translate(5px, -170%) rotate(-30deg);
+  }

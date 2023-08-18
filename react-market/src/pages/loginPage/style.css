@@ -1,0 +1,41 @@
+body{
+  background-image: radial-gradient(rgba(114, 114, 114, 1), rgba(233, 233, 233, 1));}
+.containerLogin {
+  text-align: center;
+  margin-top: 1%;
+
+  background-color: rgb(61, 75, 81);
+  
+  width: 40%;
+  height: 32rem;
+  margin-left: 27%;
+  border: 5px white ridge;
+  border-radius: 20px;
+ 
+}
+.inputsLogin{
+  height: 4rem;
+  width: 90%;
+  margin-top: 5%;
+  border: none;
+  border-bottom: 7px ridge rgb(29, 146, 197);
+  border-radius: 10px
+ ;}
+
+.buttonsLogin{
+ margin: 20px;
+ width: 150px;
+}
+#titleLogin{
+  color: white;
+  border: none;
+  border-bottom: 3px white double;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 15px 15px 15px;
+}
+.imgLogo{
+  width: 120px;
+  height: 120px;
+  padding: 10px 10px 10px 10px;
+}
